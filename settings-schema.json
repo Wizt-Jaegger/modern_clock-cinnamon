@@ -1,0 +1,102 @@
+{
+  "show-day": {
+    "type": "switch",
+    "default": true,
+    "description": "Show Day"
+  },
+  "day-font-size": {
+    "type": "spinbutton",
+    "default": 72,
+    "min": 10,
+    "max": 200,
+    "step": 1,
+    "units": "px",
+    "description": "Day Font Size"
+  },
+  "day-letter-spacing": {
+    "type": "spinbutton",
+    "default": 17,
+    "min": 0,
+    "max": 100,
+    "step": 1,
+    "units": "px",
+    "description": "Day Letter Spacing"
+  },
+  "day-font-color": {
+    "type": "colorchooser",
+    "default": "rgb(255,255,255)",
+    "description": "Day Font Color"
+  },
+  "show-date": {
+    "type": "switch",
+    "default": true,
+    "description": "Show Date"
+  },
+  "date-font-size": {
+    "type": "spinbutton",
+    "default": 19,
+    "min": 10,
+    "max": 100,
+    "step": 1,
+    "units": "px",
+    "description": "Date Font Size"
+  },
+  "date-letter-spacing": {
+    "type": "spinbutton",
+    "default": 3,
+    "min": 0,
+    "max": 20,
+    "step": 1,
+    "units": "px",
+    "description": "Date Letter Spacing"
+  },
+  "date-font-color": {
+    "type": "colorchooser",
+    "default": "rgb(255,255,255)",
+    "description": "Date Font Color"
+  },
+  "date-format": {
+    "type": "entry",
+    "default": "%d %b %Y",
+    "description": "Date Format"
+  },
+  "show-time": {
+    "type": "switch",
+    "default": true,
+    "description": "Show Time"
+  },
+  "time-font-size": {
+    "type": "spinbutton",
+    "default": 19,
+    "min": 10,
+    "max": 100,
+    "step": 1,
+    "units": "px",
+    "description": "Time Font Size"
+  },
+  "time-letter-spacing": {
+    "type": "spinbutton",
+    "default": 3,
+    "min": 0,
+    "max": 20,
+    "step": 1,
+    "units": "px",
+    "description": "Time Letter Spacing"
+  },
+  "time-font-color": {
+    "type": "colorchooser",
+    "default": "rgb(255,255,255)",
+    "description": "Time Font Color"
+  },
+  "use-24-hour-format": {
+    "type": "switch",
+    "default": false,
+    "description": "Use 24-Hour Format"
+  },
+  "time-character": {
+    "type": "entry",
+    "default": "-",
+    "description": "Time Character (between hour and minute)",
+    "max-length": 1
+  }
+}

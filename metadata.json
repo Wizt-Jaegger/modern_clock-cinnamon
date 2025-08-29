@@ -1,0 +1,9 @@
+{
+  "uuid": "modernclock@emireyes.com",
+  "name": "Modern Clock",
+  "description": "A modern styled clock for Cinnamon, inspired by Prayag2's KDE Modern Clock. I love his watch and wanted it on Cinnamon.",
+  "version": 1,
+  "maxInstances": 1,
+  "multiversion": false,
+  "preview": "preview.png"
+}
